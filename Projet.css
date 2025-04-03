@@ -1,0 +1,167 @@
+/*header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 0;
+    left: 0;
+    padding-left: 15px;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}   
+   
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    padding: 15px;
+    cursor: pointer;
+    list-style: none;
+    flex-direction: row;
+}
+li:hover{
+    color: rgb(104, 95, 243);;
+    cursor: pointer;
+
+}
+li:hover::after{
+    content: " ";
+    position:fixed;
+    z-index: -2;
+    border-radius: 50%;
+}
+.b2{
+    background-color: #000;
+    border-radius: 5px;
+    border-color: #000;
+    cursor: pointer;
+    color: #fff;
+}
+
+button{
+    background-color: #000;
+    border-radius: 5px;
+    border-color: #000;
+    cursor: pointer;
+
+}
+/*header*/
+
+/*main*/
+div{
+    padding-top: 5px;
+    text-align: center;
+}
+img{
+    border-radius: 100%;
+    background-color: rgb(164, 175, 175);
+
+}
+span{
+   color: rgb(104, 95, 243);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   padding-top: 5%;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+h4{
+    opacity: 0.25;
+}
+.button{
+    border-radius: 5%;
+    background-color: rgb(104, 95, 243);
+    color: #fff;
+    height: 40px;
+}
+.button-button{
+    border-radius: 5%;
+    background-color: rgb(104, 95, 243);
+    color: #fff;
+    height: 20px;
+}
+.div{
+    text-align: start;
+    float: right;
+    padding-top: 20px;
+}
+.review{
+    float: left;
+    padding-left: 50px;
+    padding-top: 15px;
+    border-radius: 10px;
+}
+.section{
+    background-color: rgb(220, 228, 229);
+    height: 250px;
+    margin-top: 20px;
+}
+.one img{
+border-radius: 15px;
+height: 300px;
+width: 300px;
+object-fit: cover;
+
+}
+
+.two img{
+ border-radius: 15px;
+ height: 300px;
+ width: 300px;
+ object-fit: cover;
+ justify-content: center;
+      
+}
+
+.three img{
+ border-radius: 15px;
+ height: 300px;
+ width: 300px;
+ object-fit: cover;
+ justify-content: end;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.h1{
+    text-align: left;
+    color: rgb(104, 95, 243);
+}
+fieldset{
+    text-align: start;
+    padding-right: 200px;
+}
+h6{
+    opacity: 0.5;
+    color: rgb(164, 175, 175);
+}
+.section-three{
+   display: flex;
+   gap: 100px;
+    
+}
+/*main*/
+
+/*footer*/
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    height: 60px;
+}
+/*footer*/
+
+@media screen and (max-width: 674px){
+    header {
+     padding: 0;  
+    }
+}
+
